@@ -1,0 +1,59 @@
+# ============================================
+# Arquivos de Configuração e Segredos
+# ============================================
+.env
+*.env
+!.env.example
+
+# ============================================
+# Dados de Runtime e Estado Local
+# ============================================
+chips_status.json
+chips_status.json.tmp
+*.tmp
+
+# ============================================
+# Logs e Auditoria
+# ============================================
+*.log
+monitor.log
+
+# ============================================
+# Python e Bytecode
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================================
+# Ambientes Virtuais
+# ============================================
+venv/
+.venv/
+env/
+ENV/
+
+# ============================================
+# Resíduos de Browser / Scraping Legado
+# ============================================
+.moli-profile/
+.moli/
+
+# ============================================
+# IDEs e Editores
+# ============================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# Arquivos do Sistema Operacional
+# ============================================
+Thumbs.db
+Desktop.ini
+.DS_Store
